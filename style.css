@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+}
+
+.nav-section{
+    background-color: rgb(207, 137, 7);
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 18px rgb(143, 139, 132);
+    position: fixed;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+
+ul li{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo h1{
+    font-size: 2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero-section{
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3vw 4vw;
+    border-bottom: 3px solid rgb(143, 139, 139);
+}
+
+
+.hero-left{
+    margin-bottom: 40px;
+
+}
+.hero-left h3 span{
+    color: rgb(11, 140, 138);
+}
+.hero-left h2{
+    font-size: 30px;
+    color: rgb(207, 137, 7);
+}
+
+.hero-left h1{
+    font-size: 90px;
+    color:rgb(12, 195, 146);
+}
+.hero-left p{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 70px;
+    margin-left: 10px;
+    background-color: rgb(255, 167, 5);;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.icon:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.hero-right img{
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(96, 86, 86); 
+}
+
+
+.about-section{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid rgb(143, 139, 139);;
+}
+
+.about-section h1{
+    text-align: center;
+    margin: auto;
+    width:20%;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 4px solid white;
+    text-transform: uppercase;
+}
+
+.about-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.about-section{
+    padding: 3vw 4vw;
+
+}
+
+.about-img{
+    width: 40%;
+}
+
+.about-img img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(96, 86, 86); 
+}
+
+.about-content{
+    width: 60%;
+}
+
+.about-content h4{
+    color:rgb(207, 137, 7);
+    margin-top: 20px;
+}
+
+.about-media{
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.about-media i{
+    font-size: 5vw;
+    margin: 20px 30px;
+
+}
+
+.about-media h2{
+    margin-bottom: 30px;
+}
+
+.insta{
+    background-color: rgb(216, 25, 89);
+    border-radius: 4px;
+}
+
+.facebook{
+    background-color: rgb(28, 28, 233);
+    border-radius:4px;
+}
+
+.linkedin{
+    background-color: rgb(29, 29, 219);
+    border-radius: 4px;
+}
+
+.media:hover{
+    border-bottom: 2px solid white;
+}
+
+.about-media a{
+    text-decoration: none;
+    color: white;
+}
+
+.edu-section{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-bottom: 2px solid white;
+}
+
+.edu-section h1{
+    text-align: center;
+}
+
+.edu1{
+    width: 420px;
+    height: 235px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(101, 97, 97); 
+}
+.edu1 h1{
+    text-transform: uppercase;
+    color:rgb(12, 195, 146); ;
+}
+.edu1 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:rgb(207, 137, 7); 
+}
+.edu1 h4{
+    text-transform: uppercase;
+    font-size:18px ;
+    color:rgb(9, 250, 77);
+}
+
+.edu-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.edu:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.skill-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+
+
+.skill-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.skill-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.skill{
+    width: 400px;
+    height: 230px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.skill h1{
+    font-size: 20px;
+}
+
+.skill i{
+    font-size: 60px;
+}
+
+.skill h1{
+    color: rgb(12, 195, 146); ;;
+}
+
+.skill p{
+    color: rgb(207, 137, 7); 
+    font-weight: 600;
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: brown;
+}
+.color3{
+    background-color: rgb(28, 62, 214);
+}
+
+.color4{
+    background-color: green;
+}
+
+.skills:hover{
+    border: 2px solid white;
+    background-color: wheat;
+    box-shadow: 5px 5px 5px rgb(167, 157, 157); 
+
+}
+
+.project-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(143, 139, 139);
+}
+
+
+.projects img{
+    width: 350px;
+    margin-top: 10px;
+}
+
+.projects h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.projects{
+    width: 380px;
+    text-align: center;
+}
+
+.project-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.dentech{
+    width: 380px;
+    margin-top: 100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dentech img{
+    width: 350px;
+    margin-top: 10px;
+}
+.dentech h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.pro:hover{
+    border: 2px solid wheat;
+    border-radius: 4px;
+}
+
+
+.contact-section{
+    width: 100%;
+    height: 90vh;
+    background-color:black;
+    padding: 20px;
+
+    color: white;
+
+}
+
+.contact-section h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.contact-section h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    width: 400px;
+    height: 430px;
+    background-color: black;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+
+}
+
+form input{
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+form textarea{
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 8vh;
+    background-color: orange;
+    text-align: center;
+}
+
+.footer h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+    
+
+
+
+@media (max-width:400px) {
+    .nav-logo h1{
+        font-size: 5vw;
+        color:rgb(49, 121, 119)
+    }
+    .nav-section{
+        height: 8vh;
+        background-color: lightseagreen;
+    }
+
+    ul li{
+        font-size: 2.5vw;
+        font-weight: 700;
+        color: beige;
+    }
+
+    .hero-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    
+    }
+    .hero-left{
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    
+    }
+    .hero-right{
+        width: 100%;
+        height: 40vh;
+        text-align: center;
+    }
+
+    button{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .hero-right img{
+        width: 45vw;
+        margin-top: 65px;
+    }
+
+
+    .hero-left h2{
+        font-size: 20px;
+    }
+
+    .hero-left h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .hero-left h3{
+        margin-top: 50px;
+    }
+
+    .hero-left p{
+        text-align: center;
+        font-size: 15px ;
+    }
+
+    .about-section{
+        width: 100%;
+        height: 110vh;
+        flex-direction: column;
+    }
+
+    .about-section h1{
+        font-size: 25px;
+
+    }
+
+    .about-message{
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 40%;
+        margin-right: 125px;
+        margin-top: 30px;
+        
+
+    }
+
+    .about-img img{
+        width: 70vw;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .about-content{
+        width: 60%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .about-media i{
+        font-size:45px;
+    }
+
+    .about-media{
+        text-align: center;
+    }
+
+    .edu-section{
+        height: 120vh;
+        text-align: center;
+    }
+
+    .edu-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .edu-section h1{
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .edu1{
+        width:300px;
+        height: 260px;
+        margin: auto;
+    }
+
+    .edu1 h1{
+        font-size: 20px;
+    }
+
+    .edu1 h2{
+        font-size: 15px;
+    }
+
+    .edu h3{
+        font-size: 15px;
+    }
+
+    .edu h4{
+        font-size: 15px;
+    }
+
+    .edu p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .skill-detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill{
+        flex-direction: row;
+    }
+
+    .skill-section{
+        width: 100%;
+        height:100%;
+    }
+
+    .project-detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-section{
+        width: 100%;
+        height: 100%;
+    }
+
+    .dentech{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+
+
+}
